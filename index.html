@@ -4,31 +4,48 @@
         <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css" />
         <script src="https://cdn.tailwindcss.com"></script>
      </head>
-     <body class="bg-black">
-        <header class="w-12/12 h-20 text-white hover-slate-400">
-            <img class= "w-1/12" src="https://www.wfla.com/wp-content/uploads/sites/71/2020/03/AIRBNB.jpg" alt="airbnb"
-            
-            <ul class="flex justify-between">
-            <li class="mr-1">
-                <a class="text-white hover:text-white" href="#">Places to stay</a>
-            </li>
-             <li class="mr-1">
-                        <a class="text-white hover:text-white" href="#">Experinces</a>
-            </li>
-            <li class="mr-1">       
-                        <a class="text-white hover:text-white" href="#">Online Experinces</a>
-            </li>
+     <body class="h-screen bg-black">
+        <div class="mx-auto w-10/12">
+            <header class= "h-20 text-white hover-slate-400 flex justify-between">
+                <div>
+                    logo
+                </div>
+                <div>
+                    <ul class="flex justify-items-center underline decoration-transparent hover:decoration-inherit transition duration-300 ease-in-out">
+                        <li class="mr-1 px-6">
+                            <a class="text-white hover:text-white" href="#">Places to stay</a>
+                        </li>
+                        <li class="mr-1 px-6">
+                                    <a class="text-white hover:text-white" href="#">Experinces</a>
+                        </li>
+                        <li class="mr-1 px-6">       
+                                    <a class="text-white hover:text-white" href="#">Online Experinces</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-white">
+                    <p>Become a host</p>
                 
-            <li class="mr-1">  
-                        <a class="text-white hover:text-white" href="#">Become a Host</a>
-             </li>
-        </ul>
-       
-        </header>
+                </div>
+           
+            </header>  
+    
+        </div>
+        
         <br>
-        <section class="w-10/12 h-20 bg-white mx-auto rounded-full"></section><br>
-        <main class="w-10/12 h-96 bg-red-600 mx-auto rounded-lg">
-            <p class=" text-white text-large mx-auto">Help house 100,000 refugees fleeing Ukraine</p>
+        <section class="w-9/12 h-20 bg-white mx-auto rounded-full">
+            <div class="grid grid-cols-4 divide-x">
+                <div>Location</div>
+                <div>Check in</div>
+                <div>Check out</div>
+                <div>Guest</div>
+            </div>
+
+
+        </section><br>
+        <main class="flex flex-col items-center justify-center w-10/12 h-96 bg-red-600 mx-auto rounded-lg">
+            <p class=" text-center text-white text-5xl mx-auto py-7">Help house 100,000 refugees fleeing Ukraine</p>
+             <button class="flex p-7 justify-center text-white font-semibold border-solid border-2 border-white">Learn more</button>
         </main>
      </body>
 </html>
